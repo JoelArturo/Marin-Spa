@@ -1,0 +1,28 @@
+#servicios{
+	margin-top: 100px;
+	.container{
+		display: flex;
+		flex-wrap: wrap;
+		// flex-direction: row;
+		justify-content: space-between;
+		text-align: center;
+		.servicio{
+			width: 300px;
+			.name{
+				font-size: 2em;
+				font-family: josefin;
+				font-weight: lighter;
+			}
+			.content{
+				img{
+					width: 50%;
+					filter: invert(100%);
+				}
+				p{
+					font-family: quicksand;
+					font-size: 1.5em;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,27 @@
+header{
+	box-sizing: border-box;
+
+	background-image: url(../img/background.jpg);
+	padding: 30px 100px;
+	height: 100vh;
+	background-size: cover;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-end;
+
+	font-family: josefin;
+	color: #000000;
+	.subtitle{
+		position: relative;
+		top: -75px;
+		color: #fff;
+	}
+	img{
+		width: 200px;
+		position: relative;
+		top: 30px;
+		left: -120px;
+	}
+}
